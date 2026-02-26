@@ -33,17 +33,22 @@ const Carrinho = (function() {
 })();
 
 
-//Exemplos de uso
-Carrinho.adicionar({ nome: "Camisa", preco: 50 });
-Carrinho.adicionar({ nome: "Tênis", preco: 200 });
+// TESTE CORRETO
+// Carrinho.adicionar({ nome: "Camisa", preco: 50 });
+// Carrinho.adicionar({ nome: "Tênis", preco: 200 });
 
-console.log(Carrinho.listarItens());
-console.log("Total:", Carrinho.verTotal());
+// console.log(Carrinho.listarItens());
+// console.log("Total:", Carrinho.verTotal());
 
-// Teste alteração das váriaveis.
+// Carrinho.remover("Camisa");
+
+// console.log(Carrinho.listarItens());
+// console.log("Total:", Carrinho.verTotal());
+
+// TESTE DE ALTERACAO DAS VARIAVEIS
 itens = "bagunça total";
 total = -9999;
 
-console.log('Itens', Carrinho.itens);
-console.log('Total', Carrinho.total);
+console.log('Itens:', Carrinho.itens);
+console.log('Total:', Carrinho.total);
 

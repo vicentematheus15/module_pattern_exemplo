@@ -25,7 +25,7 @@ function listarItens() {
   return itens;
 }
 
-//TESTE CORRETO
+// TESTE CORRETO
 // adicionar({ nome: "Camisa", preco: 50 });
 // adicionar({ nome: "Tênis", preco: 200 });
 
