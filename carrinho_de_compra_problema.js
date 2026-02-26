@@ -26,16 +26,16 @@ function listarItens() {
 }
 
 // TESTE CORRETO
-// adicionar({ nome: "Camisa", preco: 50 });
-// adicionar({ nome: "Tênis", preco: 200 });
+adicionar({ nome: "Camisa", preco: 50 });
+adicionar({ nome: "Tênis", preco: 200 });
 
-// console.log(listarItens());
-// console.log("Total:", verTotal());
+console.log(listarItens());
+console.log("Total:", verTotal());
 
 
 // TESTE DE ALTERACAO DAS VARIAVEIS
-// itens = "bagunça total";
-// total = -9999;
+itens = "bagunça total";
+total = -9999;
 
-// console.log(listarItens());
-// console.log("Total:", verTotal());
+console.log(listarItens());
+console.log("Total:", verTotal());

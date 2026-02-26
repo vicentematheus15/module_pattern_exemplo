@@ -46,9 +46,12 @@ const Carrinho = (function() {
 // console.log("Total:", Carrinho.verTotal());
 
 // TESTE DE ALTERACAO DAS VARIAVEIS
-itens = "bagunça total";
-total = -9999;
+// itens = "bagunça total";
+// total = -9999;
 
-console.log('Itens:', Carrinho.itens);
-console.log('Total:', Carrinho.total);
+// console.log(Carrinho.listarItens());
+// console.log("Total:", Carrinho.verTotal());
+
+// console.log('Itens:', Carrinho.itens);
+// console.log('Total:', Carrinho.total);
 
