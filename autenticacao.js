@@ -29,3 +29,16 @@ const Auth = (function() {
   };
 
 })();
+
+// LOGIN CORRETO
+// Auth.login("admin", "123");
+// console.log(Auth.status());
+
+
+// LOGIN INVÁLIDO
+// Auth.login("admin", "999");
+// console.log(Auth.status());
+
+// TENTANDO ALTERAR O USUARIO QUE ESTÁ LOGADO
+// usuarioLogado = "eu";
+// console.log(Auth.status());
