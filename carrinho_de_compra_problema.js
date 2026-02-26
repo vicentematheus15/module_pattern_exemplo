@@ -31,5 +31,10 @@ adicionar({ nome: "Tênis", preco: 200 });
 console.log(listarItens());
 console.log("Total:", verTotal());
 
+
+// Teste alteração das váriaveis.
 itens = "bagunça total";
 total = -9999;
+
+console.log(listarItens());
+console.log("Total:", verTotal());

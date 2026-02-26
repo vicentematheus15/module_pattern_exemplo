@@ -39,3 +39,11 @@ Carrinho.adicionar({ nome: "Tênis", preco: 200 });
 
 console.log(Carrinho.listarItens());
 console.log("Total:", Carrinho.verTotal());
+
+// Teste alteração das váriaveis.
+itens = "bagunça total";
+total = -9999;
+
+console.log('Itens', Carrinho.itens);
+console.log('Total', Carrinho.total);
+
