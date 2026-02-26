@@ -25,6 +25,7 @@ function listarItens() {
   return itens;
 }
 
+//TESTE CORRETO
 // adicionar({ nome: "Camisa", preco: 50 });
 // adicionar({ nome: "Tênis", preco: 200 });
 
@@ -32,7 +33,7 @@ function listarItens() {
 // console.log("Total:", verTotal());
 
 
-// Teste alteração das váriaveis.
+// TESTE DE ALTERACAO DAS VARIAVEIS
 // itens = "bagunça total";
 // total = -9999;
 
